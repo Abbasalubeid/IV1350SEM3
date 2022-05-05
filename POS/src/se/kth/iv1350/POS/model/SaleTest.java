@@ -84,7 +84,7 @@ class SaleTest {
 		sale.addItem(item1);
 		sale.addItem(item2);
 		sale.addItem(item3);
-		sale.setPaidAmount(45);
+		sale.setPaidAmount(55);
 		assertEquals(5, sale.calculateChange(), "The change is not calculated correctly");
 	}
 
