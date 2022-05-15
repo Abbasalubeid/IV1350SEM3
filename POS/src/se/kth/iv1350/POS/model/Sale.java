@@ -24,6 +24,7 @@ public class Sale {
 	 */
 	public Sale() {
 		receipt = new Receipt();
+		totalPrice = 0; //testar git
 
 	}
 
@@ -100,15 +101,7 @@ public class Sale {
 		this.totalVAT = totalVAT;
 	}
 
-	/**
-	 * Sets the instance variable that contains the time to right time, that is the
-	 * time that a sale has been started/created.
-	 * 
-	 * @param timeToSet The time that needs to be set to the particular time.
-	 */
-	private void setTimeOfSale(LocalTime timeToSet) {
-		timeToSet = LocalTime.now();
-	}
+
 
 	/**
 	 * Adds a certain item to the list of items in this sale, the price of this item
