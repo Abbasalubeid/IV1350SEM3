@@ -24,7 +24,7 @@ public class Sale {
 	 */
 	public Sale() {
 		receipt = new Receipt();
-		totalPrice = 0; //testar git
+		totalPrice = 0; 
 
 	}
 
