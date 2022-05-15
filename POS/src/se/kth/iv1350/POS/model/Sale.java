@@ -24,7 +24,6 @@ public class Sale {
 	 */
 	public Sale() {
 		receipt = new Receipt();
-		totalPrice = 0; 
 
 	}
 
